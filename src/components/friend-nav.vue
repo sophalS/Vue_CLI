@@ -10,7 +10,7 @@
 <style>
 nav{
     display: flex;
-    background: rgb(250, 71, 101);
+    background: rgb(72, 125, 204);
 }
 a{
     text-decoration: none;

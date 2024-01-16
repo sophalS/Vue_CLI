@@ -1,6 +1,6 @@
 <template>
   <div class="friend-form">
-  <input type="text" placeholder="First Name" v-model="first_name">
+  <input type="text" placeholder="First Name" v-model="first_name ">
   <input type="text" placeholder="Last Name" v-model="last_name">
   <input type="text" placeholder="Comment" v-model="comment">
   <button @click="saveData">ADD</button>
@@ -43,6 +43,7 @@ export default {
     justify-content: center;
     margin: auto;
     padding: 2%;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 input{
@@ -50,7 +51,7 @@ input{
 
 }
 button{
-    background: gray;
+    background: rgb(72, 125, 204);
     width: 93%;
     border: 1px solid gray;
     color: white;

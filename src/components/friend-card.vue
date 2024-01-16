@@ -18,10 +18,11 @@ props:[
 
 <style>
 .friend-card{
-    width: 50%;
+    width: 90%;
     justify-content: center;
     margin: auto;
     padding: 2%;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
 
